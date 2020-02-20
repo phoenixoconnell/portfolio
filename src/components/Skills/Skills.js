@@ -2,6 +2,7 @@ import React from 'react'
 import reduxLogo from './redux-logo.svg'
 import restLogo from './rest-logo.svg'
 import './Skills.css'
+import resume from '../../PhoenixResume.pdf'
 
 export default function Skills() {
     return (
@@ -17,6 +18,9 @@ export default function Skills() {
                 <div className='skill-container'><i class="fab fa-npm"></i><span className='skill-name'>NPM</span></div>
                 <div className='skill-container'><img className='fab' src={reduxLogo} alt='Redux' /><span className='skill-name'>Redux</span></div>
                 <div className='skill-container'><img className='fab' src={restLogo} alt='Rest' /><span className='skill-name'>REST</span></div>
+            </div>
+            <div className='resume-container'>
+                <h1 className='resume-h1'>Download my Full Resume <a className='contact-resume' href={resume} download>Here</a></h1>
             </div>
         </div>
     )

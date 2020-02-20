@@ -32,11 +32,15 @@ export default function Contact() {
 
     return (
         <div className='contact-container'>
-            <div>
-
+            <div className='contact-link-badges-container'>
+                <h1 className='contact-h1'>Find me here...</h1>
+                <div className='contact-link-badges'>
+                    <a href='https://github.com/phoenixoconnell' rel='noopener noreferrer' className='contact-link' target='_blank'><i class='fab fa-github' /></a>
+                    <a href='https://www.linkedin.com/in/phoenix-shane-962426161' rel='noopener noreferrer' className='contact-link' target='_blank'><i class='fab fa-linkedin' /></a>
+                </div>
             </div>
             <div className='contact-resume-container'>
-                <h1 className='contact-h1'>Download my Resume <a className='contact-resume' href={resume} download>Here</a></h1>
+                <h1 className='contact-h1'>Or download my resume <a className='contact-resume' href={resume} download>Here...</a></h1>
             </div>
             <div className='contact-me'>
                 <h1>Or Contact Me Directly</h1>
