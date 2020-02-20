@@ -1,0 +1,95 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-email-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+.contact-email-form textarea {
+    width: 60%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    resize: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+}
+
+.contact-email-form textarea:focus {
+    border: 1px solid gray;
+}
+
+.contact-email-form-inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 60%;
+}
+
+.contact-email-form-inputs input {
+    padding: 12px 20px;
+    box-sizing: border-box;
+    width: 200px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+}
+
+.contact-email-form-inputs input:focus {
+    border: 1px solid gray;
+}
+
+.contact-email-form button {
+    border: 2px solid #993399;
+    background-color: #996699;
+    color: white;
+    font-family: 'Open Sans', 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.contact-resume-container {
+    color: black;
+    margin: 20px;
+}
+
+.contact-resume {
+    color: #8B9568;
+}
+
+.contact-me {
+    margin: 20px;
+}
+
+/* .Toastify__toast-container {
+    position: fixed !important;
+    bottom: 20px !important;
+    right: 20px !important;
+}
+
+.Toastify__toast--success {
+    z-index: 99;
+    background-color: #9999ff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.Toastify__toast--error {
+    z-index: 99;
+    background-color: #ff9999;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+} */

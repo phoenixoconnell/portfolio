@@ -1,0 +1,50 @@
+.projects-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.project {
+    height: 500px;
+    width: 400px;
+    box-shadow: 2px 2px 2px 2px gray;
+    border: 1px solid black;
+    background-size: 400px 300px;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    /* overflow-y: scroll; */
+    box-sizing: border-box;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.project-details {
+    height: 250px;
+    width: 400px;
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    border-right: 1px solid black;
+}
+
+.project-details p {
+    line-height: 25px;
+}
+
+.projects-link {
+    color: #993399;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#wandsattheready {
+    background-image: url('./wandsatthereadyportfolio.png')
+}
